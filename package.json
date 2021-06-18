@@ -1,0 +1,32 @@
+{
+  "name": "umapi_cript",
+  "version": "1.0.0",
+  "description": "umapi_cript",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "test": "dist/test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --w",
+    "test": "nodemon dist/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SashokNekulin/umapi_cript.git"
+  },
+  "author": "Alexandr Nikulin <nekulin@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SashokNekulin/umapi_cript/issues"
+  },
+  "homepage": "https://github.com/SashokNekulin/umapi_cript#readme",
+  "dependencies": {
+    "node-rsa": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.3",
+    "@types/node-rsa": "^1.1.0"
+  }
+}
