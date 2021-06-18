@@ -8,8 +8,6 @@ export interface RESPONSE {
 
 class UC {
 
-    private secret: string | null = null
-
     private base64encode(str: string ): string  {
         return Buffer.from(str, 'utf8').toString('base64');
     }
